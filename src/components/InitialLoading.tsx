@@ -16,15 +16,15 @@ export default function InitialLoading() {
 			}
 			setVal(values[i]);
 			i++;
-		}, 600);
+		}, 800);
 	}, []);
 	return (
 		<div className='h-screen flex flex-col items-center justify-between bg-[#141414]'>
 			<div></div>
-			<div className='text-[25vh] font-bold text-[#fcf9ee] h-40 flex items-center justify-center overflow-hidden'>
+			<div className='text-[10vh] lg:text-[25vh] font-bold text-[#fcf9ee] h-28 lg:h-40 flex items-center justify-center overflow-hidden font-antonio'>
 				<AnimatePresence mode='wait'>
 					<motion.h1
-						initial={{ y: '50%' }}
+						initial={{ y: '80%' }}
 						animate={{ y: 0 }}
 						exit={{ y: '-100%' }}
 						transition={{ type: 'tween' }}

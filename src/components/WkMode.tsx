@@ -22,7 +22,7 @@ export default function WkMode() {
 			}}
 			animate={visible ? 'hidden' : 'visible'}
 			transition={{ duration: 0.65, ease: 'easeInOut' }}
-			className=' fixed top-5 left-1/2 text-xs  font-light text-center font-permanent'
+			className=' fixed top-5 left-1/2 text-xs  font-light text-center font-permanent z-40'
 		>
 			<p className='bg-[#e7d6c4] inline-block rounded-sm px-1'>WkMode</p>
 		</motion.h1>
