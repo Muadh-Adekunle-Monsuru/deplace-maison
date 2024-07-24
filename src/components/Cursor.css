@@ -1,0 +1,20 @@
+/* Cursor.css */
+#cursor {
+	position: fixed;
+	top: calc(28 * -0.5);
+	left: calc(28 * -0.5);
+	pointer-events: none;
+	z-index: 10000;
+	mix-blend-mode: difference;
+	filter: url(#goo);
+}
+
+.cursor-circle {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background-color: #faf7ee;
+	border-radius: 28px;
+	transform: translate(-50%, -50%);
+	will-change: transform;
+}

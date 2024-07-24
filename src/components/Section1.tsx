@@ -54,6 +54,14 @@ export default function Section1() {
 					</div>
 				</div>
 			</div>
+			<div className='flex justify-end items-center py-14 gap-5'>
+				<p className='text-xl font-medium font-mulish cursor-pointer'>
+					EXPLORE
+				</p>
+				<div className='size-14 border-2 border-black drop-shadow-xl rounded-full p-3 flex items-center justify-center cursor-pointer'>
+					<img src='/arrow.png' className='size-10' />
+				</div>
+			</div>
 		</div>
 	);
 }

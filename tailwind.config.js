@@ -8,6 +8,7 @@ export default {
 				antonio: ['Antonio', ...defaultTheme.fontFamily.sans],
 				permanent: ['Permanent Marker', ...defaultTheme.fontFamily.sans],
 				mulish: ['Mulish', ...defaultTheme.fontFamily.sans],
+				cyberthrone: ['Cyberthrone', 'sans-serif'],
 			},
 		},
 	},

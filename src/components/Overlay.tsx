@@ -12,15 +12,15 @@ const variants = {
 };
 export default function Overlay() {
 	return (
-		<div className='w-full h-screen flex flex-col justify-between fixed top-0 left-0 right-0 lg:p-2 uppercase text-xs font-medium font-mulish'>
+		<div className='w-full h-screen flex flex-col justify-between fixed top-0 left-0 right-0 lg:p-2 uppercase text-xs font-medium font-mulish '>
 			<div className='flex justify-between '>
-				<div className='h-10 lg:-rotate-90 w-40  absolute -left-5 top-10 mt-10 overflow-hidden'>
+				<div className='h-10 lg:-rotate-90 w-40  absolute -left-5 top-10 mt-10 overflow-hidden z-[99999]'>
 					<motion.p
 						whileHover={{
 							y: '-54%',
 						}}
 						transition={{ type: 'tween', duration: 0.7 }}
-						className='cursor-pointer text-3xl uppercase font-antonio font-semibold tracking-tighter '
+						className='cursor-pointer text-3xl uppercase font-antonio font-semibold tracking-tighter'
 					>
 						Déplacé Maison
 						<span className='block mt-1'>Déplacé Maison</span>
@@ -32,6 +32,7 @@ export default function Overlay() {
 						variants={variants}
 						whileHover='hovered'
 						transition={{ type: 'tween' }}
+						className='z-[99999]'
 					>
 						Cart
 						<span className='block mt-5'>cart</span>
@@ -44,7 +45,7 @@ export default function Overlay() {
 						variants={variants}
 						whileHover='hovered'
 						transition={{ type: 'tween' }}
-						className=' cursor-pointer '
+						className=' cursor-pointer z-[99999]'
 					>
 						SHOP
 						<span className='block mt-5'>SHOP</span>
