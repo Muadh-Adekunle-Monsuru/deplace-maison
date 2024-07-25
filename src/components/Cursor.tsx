@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import './Cursor.css'; // Ensure you have the necessary CSS for .cursor-circle
 
 const TAIL_LENGTH = 20;

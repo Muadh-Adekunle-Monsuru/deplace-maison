@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useState } from 'react';
 
 export default function Section4() {
 	const [value, setValue] = useState(false);

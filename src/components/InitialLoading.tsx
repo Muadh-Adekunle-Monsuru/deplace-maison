@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 export default function InitialLoading() {
-	const [curr, setCurr] = useState(true);
+	// const [curr, setCurr] = useState(true);
 	const [val, setVal] = useState('');
 
 	const values = ['33%', '40%', '50%', '60%', '75%', '93%', '100%'];

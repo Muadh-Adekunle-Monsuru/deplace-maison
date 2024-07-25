@@ -1,6 +1,5 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const products = [
 	{ name: 'Cactus', prevPrice: '300', currPrice: '180', img: '/img1.jpeg' },

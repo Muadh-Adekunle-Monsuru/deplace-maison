@@ -10,6 +10,7 @@ import Scrollbar from './components/Scrollbar';
 import Section3 from './components/Section3';
 import Section4 from './components/Section4';
 import Footer from './components/Footer';
+import NewScrollbar from './components/NewScrollbar';
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -42,6 +43,7 @@ function App() {
 						<WkMode />
 						<Section1 />
 						<Scrollbar />
+						{/* <NewScrollbar /> */}
 						<Section3 />
 						<Section4 />
 						<Footer />
