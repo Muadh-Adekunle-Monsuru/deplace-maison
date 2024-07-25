@@ -12,10 +12,10 @@ const products = [
 
 export default function Section3() {
 	return (
-		<div className='py-20 '>
+		<div className='py-20 px-4'>
 			<div className=' font-mulish flex justify-end lg:pr-20'>
-				<p className='text-6xl font-mulish font-semibold w-3/4 '>
-					<span className='underline inline uppercase text-xl pr-20'>
+				<p className='text-3xl lg:text-6xl font-mulish font-semibold lg:w-3/4 '>
+					<span className='underline inline uppercase text-xl pr-5 lg:pr-20'>
 						WHO we are
 					</span>
 					An independent <span className='underline'>brand </span>of urban
@@ -26,13 +26,13 @@ export default function Section3() {
 			<Swiper
 				spaceBetween={50}
 				slidesPerView='auto'
-				className='pt-40 pr-10'
+				className='pt-40 lg:pr-10'
 				freeMode={true}
 			>
 				{products.map((item, index) => (
 					<SwiperSlide
 						key={index}
-						className='pb-10 min-w-[20rem] max-w-[20rem]  h-[28rem] border-2 border-black flex flex-col items-center justify-between bg-[#e7d6c4] -z-10 first:ml-80 last:mr-10 select-none'
+						className='pb-10 min-w-[20rem] max-w-[20rem]  h-[28rem] border-2 border-black flex flex-col items-center justify-between bg-[#e7d6c4] -z-10 first:lg:ml-80 last:lg:mr-10 select-none'
 					>
 						<div className='size-60 overflow-hidden'>
 							<img src={item.img} className='object-contain' />

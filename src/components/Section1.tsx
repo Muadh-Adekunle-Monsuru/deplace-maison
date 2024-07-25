@@ -13,19 +13,19 @@ export default function Section1() {
 		}
 	});
 	return (
-		<div className='lg:pr-20 lg:pt-24'>
-			<div className='text-[11rem] leading-none font-mulish font-bold text-right  tracking-tighter blur-[0.4px]'>
+		<div className='lg:pr-20 px-5  pt-24'>
+			<div className='lg:text-[11rem] text-[3.5rem] leading-none font-mulish font-bold text-right  tracking-tighter blur-[0.4px]'>
 				<p>SPRING,</p>
 				<div className='flex items-center text-right justify-end'>
 					<p>SUMMER</p>
-					<span className='text-5xl tracking-tight font-semibold'>
+					<span className='lg:text-5xl text-lg tracking-tight font-semibold'>
 						COLL. <span className='block'>2024</span>
 					</span>
 				</div>
 			</div>
-			<div className='flex gap-14 justify-end relative '>
-				<div className='w-1/3'>
-					<div className='w-full relative h-screen border-2 border-black overflow-hidden'>
+			<div className='flex gap-2 lg:gap-14 justify-end relative '>
+				<div className='lg:w-1/3'>
+					<div className='w-full relative h-full lg:h-screen border-2 border-black overflow-hidden'>
 						<img
 							src='/shoe1.jpeg'
 							className={`object-cover w-full h-full ${
@@ -39,8 +39,8 @@ export default function Section1() {
 					</div>
 				</div>
 
-				<div className='w-1/3'>
-					<div className=' w-full h-screen border-2 border-black overflow-hidden'>
+				<div className='lg:w-1/3'>
+					<div className=' w-full h-full lg:h-screen border-2 border-black overflow-hidden'>
 						<img
 							src='/shoe2.jpeg'
 							className={`object-cover w-full h-full ${

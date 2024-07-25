@@ -14,7 +14,7 @@ export default function Overlay() {
 	return (
 		<div className='w-full h-screen flex flex-col justify-between fixed top-0 left-0 right-0 lg:p-2 uppercase text-xs font-medium font-mulish '>
 			<div className='flex justify-between '>
-				<div className='h-10 lg:-rotate-90 w-40  absolute -left-5 top-10 mt-10 overflow-hidden z-[99999]'>
+				<div className='h-10 lg:-rotate-90 w-40  absolute left-2 lg:-left-5 lg:top-10 lg:mt-10 overflow-hidden z-[99999]'>
 					<motion.p
 						whileHover={{
 							y: '-54%',
@@ -27,7 +27,7 @@ export default function Overlay() {
 					</motion.p>
 				</div>
 				<div></div>
-				<div className='overflow-hidden h-5 absolute right-5 top-10 cursor-pointer '>
+				<div className='overflow-hidden h-5 absolute right-5 top-3 lg:top-10 cursor-pointer '>
 					<motion.p
 						variants={variants}
 						whileHover='hovered'
@@ -39,7 +39,7 @@ export default function Overlay() {
 					</motion.p>
 				</div>
 			</div>
-			<div className='absolute left-10 bottom-5'>
+			<div className='absolute left-2 lg:left-10 bottom-2 lg:bottom-5'>
 				<div className='overflow-hidden h-5'>
 					<motion.p
 						variants={variants}
